@@ -1,111 +1,101 @@
 # GTA6 — Central de Vazamentos, Desenvolvimento e Curiosidades
 
-Projeto de fã, **100% em HTML puro** (sem CSS e sem JavaScript), reunindo em um só lugar tudo o que já
-se sabe publicamente sobre **Grand Theft Auto VI**: histórico de desenvolvimento, os dois grandes
-vazamentos (2022 e 2026), personagens, elenco, mapa, veículos, rádios e easter eggs escondidos em
-GTA V Online.
+Site de fã construído **100% em HTML puro** (sem CSS e sem JavaScript), reunindo em um só lugar as principais informações públicas sobre **Grand Theft Auto VI**: histórico de desenvolvimento, os dois grandes vazamentos conhecidos (2022 e 2026), personagens, elenco, mapa, veículos, rádios e easter eggs escondidos no GTA Online e no modo história de GTA V.
 
-Este é um projeto pessoal/educacional, sem qualquer vínculo com a Rockstar Games ou a Take-Two
-Interactive. O conteúdo é baseado em material oficial já divulgado publicamente ou em reportagens de
-veículos de imprensa especializados, sempre citados nas próprias páginas.
+Projeto pessoal e educacional, **sem qualquer vínculo com a Rockstar Games ou a Take-Two Interactive**. Todo o conteúdo é baseado em material oficial já divulgado publicamente ou em reportagens de veículos de imprensa especializados, sempre citados nas próprias páginas.
 
-## 🔗 Ver o site publicado
+## 🔗 Site publicado
 
-O projeto está hospedado via GitHub Pages e pode ser acessado diretamente aqui:
+O projeto está hospedado via GitHub Pages e pode ser acessado em:
 
-**[https://jhontropinha.github.io/GTA6/html/Home](https://jhontropinha.github.io/GTA6/html/Home)**
+**https://jhontropinha.github.io/GTA6/html/Home**
 
-*(caso o link acima não funcione no seu navegador, use a versão com extensão:
-[.../html/Home.html](https://jhontropinha.github.io/GTA6/html/Home.html))*
+Se o link acima não abrir corretamente no navegador, use a versão com extensão:
+**https://jhontropinha.github.io/GTA6/html/Home.html**
 
-## 📁 Estrutura de pastas
+## 🎯 Objetivo do projeto
+
+O repositório tem dois objetivos que caminham juntos:
+
+- **Organizar em um só lugar** informações que hoje estão espalhadas por dezenas de reportagens, vídeos e posts sobre GTA VI — a linha do tempo de desenvolvimento, os vazamentos de 2022 e 2026, os personagens e o elenco confirmados, o mapa de Leonida, os veículos, as rádios e os easter eggs — sempre citando a fonte de cada informação na própria página.
+- **Servir como exercício prático de HTML5 "puro"**: o site foi construído deliberadamente sem CSS e sem JavaScript, como forma de praticar o maior número possível de tags nativas da linguagem — tabelas, listas, multimídia, formulários, elementos interativos e marcação avançada de texto (ver "Tecnologias utilizadas" abaixo).
+
+## 📁 Estrutura do repositório
 
 ```
 GTA6/
-├── html/     → 12 páginas do site (Home.html + Pagina1.html até Pagina11.html)
-├── IMG/      → imagens, organizadas em 14 subpastas por assunto
-├── Video/    → vídeos usados nas páginas (trailers, análises, reportagens)
-├── Audio/    → áudio usado na Página 4
+├── html/     → 12 páginas do site (Home.html + Pagina1.html a Pagina11.html)
+├── IMG/      → imagens de apoio, organizadas em subpastas por assunto
+├── Video/    → vídeos usados nas páginas (trailers, reportagens, análises)
 └── README.md
 ```
 
-A pasta `IMG/` está dividida por tema:
+A pasta `IMG/` é dividida por tema. Entre as subpastas usadas nas páginas estão:
 
-| Subpasta                       | Conteúdo                                                        |
-|---------------------------------|------------------------------------------------------------------|
-| `Arion Kurtaj/`                 | Fotos do hacker do vazamento de 2022 (inclusive no tribunal)      |
-| `Atores/`                       | Fotos dos atores/atrizes confirmados do elenco                   |
-| `Barcos/`                       | Embarcações confirmadas de GTA VI (Marquis, Airboat)              |
-| `Carros GTA/`                   | Carros confirmados/leaked de GTA VI                               |
-| `Comunicados Rockstar Games/`   | Prints dos comunicados oficiais (vazamentos de 2022 e 2026)       |
-| `CyberLeek/`                    | Material sobre o vazamento de 2026: logo, print da memecoin e a intimação judicial (PDF) |
-| `Easte Eggs GTA Online/`        | Imagens dos easter eggs (quadro "Trust", mancha verde etc.)       |
-| `Helicopteros/`                 | Aeronaves confirmadas (Maverick, Buzzard)                         |
-| `Mapa GTA6/`                    | Imagens do mapa de Leonida                                        |
-| `Marketing GTA 6/`              | Material sobre a campanha de marketing do jogo                    |
-| `Motos/`                        | Motocicletas confirmadas (Alvino)                                 |
-| `Personagem/`                   | Imagens dos protagonistas                                         |
-| `Rádios/`                       | Logos/artes das estações de rádio                                 |
-| `Thumbs/`                       | Thumbnails usados como poster de vídeos                           |
+| Subpasta | Conteúdo |
+| --- | --- |
+| `Personagem/` | Imagens dos protagonistas Jason Duval e Lucia Caminos |
+| `Atores/` | Fotos dos atores/atrizes confirmados do elenco |
+| `Carros GTA/` e `Motos/` | Veículos confirmados/vazados de GTA VI |
+| `Mapa GTA6/` | Imagem especulativa do mapa de Leonida |
+| `Rádios/` | Logos das estações de rádio confirmadas |
+| `Comunicados Rockstar Games/` | Prints dos comunicados oficiais sobre os dois vazamentos |
+| `CyberLeek/` | Material sobre o vazamento de 2026 (logo, print da memecoin e intimação judicial em PDF) |
+| `Easte Eggs GTA Online/` | Imagens dos easter eggs (quadro "Trust", mancha verde etc.) |
+| `Arion Kurtaj/` | Fotos do responsável identificado pelo vazamento de 2022 |
+| `Marketing GTA 6/` | Material sobre a campanha de marketing e a proposta com Miami-Dade |
 
-## 📄 Páginas do site
+*(o projeto também mantém pastas para Barcos, Helicópteros e Thumbnails de vídeo, usadas em pontos específicos do site.)*
+
+## 📄 Conteúdo das páginas
 
 | # | Arquivo | Conteúdo |
-|---|---|---|
-| — | `Home.html` | Apresentação do projeto e índice de todas as páginas |
-| 1 | `Pagina1.html` | Linha do tempo detalhada do desenvolvimento do jogo |
-| 2 | `Pagina2.html` | O vazamento de setembro de 2022: o que aconteceu, o grupo Lapsus$, conteúdo vazado e repercussão |
-| 3 | `Pagina3.html` | Protagonistas (Jason e Lucia) e personagens importantes (Cal Hampton, Brian Heder, Boobie Ike, Dre'Quan Priest, Real Dimez, Raul Bautista e Valentina) |
-| 4 | `Pagina4.html` | Quem é o vazador de 2022, como ele obteve acesso à build, o julgamento e o desfecho |
-| 5 | `Pagina5.html` | Easter eggs de GTA VI dentro de GTA Online e do modo história (Schlott Construction, quadro "Trust", mapa de Leonida) |
-| 6 | `Pagina6.html` | Lista de atores/atrizes confirmados, seus perfis e os personagens que interpretam |
-| 7 | `Pagina7.html` | Estações de rádio e músicas identificadas nos vazamentos de agosto de 2026 do CyberLeek |
-| 8 | `Pagina8.html` | O vazamento de 2026: o caso CyberLeek, a memecoin, o comunicado da Rockstar, as intimações judiciais e o desfecho até agora |
-| 9 | `Pagina9.html` | Estratégia de marketing da Rockstar, a proposta de parceria com Miami-Dade, e formulário de opinião do leitor |
-| 10 | `Pagina10.html` | Veículos confirmados: carros, barcos, helicópteros e motos |
-| 11 | `Pagina11.html` | O mapa de Leonida: as 6 regiões, locais nomeados, fauna e o tamanho especulado |
+| --- | --- | --- |
+| — | `Home.html` | Apresentação do projeto, resumo rápido (protagonistas, engine, ambientação), linha do tempo simplificada e galeria |
+| 1 | `Pagina1.html` | Linha do tempo detalhada do desenvolvimento, da pré-produção (2017) aos trailers oficiais |
+| 2 | `Pagina2.html` | O vazamento de setembro de 2022: como aconteceu, o grupo Lapsus$ e a repercussão |
+| 3 | `Pagina3.html` | Protagonistas (Jason e Lucia) e personagens importantes (Cal Hampton, Brian Heder, Boobie Ike, Dre'Quan Priest, Real Dimez, Raul Bautista, Valentina) |
+| 4 | `Pagina4.html` | Quem é o hacker do vazamento de 2022 (Arion Kurtaj), como ele obteve acesso à build e o desfecho judicial |
+| 5 | `Pagina5.html` | Easter eggs de GTA VI dentro do GTA Online e do modo história de GTA V (Schlott Construction, quadro "Trust", mancha verde) |
+| 6 | `Pagina6.html` | Atores/atrizes confirmados, seus perfis e como a comunidade os identificou antes do anúncio oficial |
+| 7 | `Pagina7.html` | Estações de rádio e músicas identificadas nos vazamentos de agosto de 2026 |
+| 8 | `Pagina8.html` | O vazamento de 2026: o caso CyberLeek, a memecoin $CYBERLEEK, o comunicado da Rockstar e as intimações judiciais em andamento |
+| 9 | `Pagina9.html` | Estratégia de marketing da Rockstar/Take-Two e a proposta de parceria com Miami-Dade, com formulário de opinião do leitor |
+| 10 | `Pagina10.html` | Veículos confirmados: carros, motos, barcos e aeronaves |
+| 11 | `Pagina11.html` | O mapa de Leonida: as 6 regiões confirmadas, locais nomeados e fauna |
 
-## 🛠️ Tecnologias e requisitos técnicos
+## 🛠️ Tecnologias utilizadas
 
-O projeto foi construído propositalmente **sem CSS e sem JavaScript**, usando apenas HTML5, como
-exercício de domínio das tags da linguagem.
+Construído propositalmente **sem CSS e sem JavaScript**, usando apenas HTML5. Recursos já em uso no site:
 
-**Já presentes no site:**
 - Meta tags (`author`, `keywords`, `description`, `viewport`)
-- Listas ordenadas e não ordenadas (`ol`, `ul`, `li`)
-- Tags isoladas e de texto (`hr`, `br`, `b`, `i`, `u`)
-- Tabelas completas em todas as 12 páginas (`table`, `tr`, `td`, `th`, `thead`, `tbody`)
-- `label`, `fieldset` e `legend` (Página 9)
-- `datalist` (Página 9)
-- Navegação fluida por menu em todas as páginas, com organização em pastas (`html/`, `IMG/`, `Video/`, `Audio/`)
-- Multimídia: `video` (6 páginas), `audio` (Página 4), `figure`/`figcaption` (7 páginas), `iframe` (Página 8)
-- Elementos interativos `details`/`summary` (9 páginas)
-- Marcação avançada de texto: `cite`, `mark`, `blockquote` (amplamente usados), `abbr`, `del`/`ins`, `progress`, `meter`
+- Listas ordenadas e não ordenadas, e tabelas completas (`table`, `thead`, `tbody`, `th`)
+- Multimídia: `video` (trailers e vídeos incorporados), `figure`/`figcaption`
+- Elementos interativos `details`/`summary`
+- Marcação de texto: `mark`, `blockquote`, `cite`, `del`/`ins`, `progress`/`meter`, `abbr`
+- Elementos de formulário: `label`, `fieldset`, `legend` e `datalist` (Página 9)
+- Menu de navegação consistente entre as páginas, com organização em pastas (`html/`, `IMG/`, `Video/`)
 
-**Ainda faltam no site (ver "Melhorias planejadas" abaixo):**
-- `select`, `radio` e `checkbox` — não aparecem em nenhuma página no momento
-- Inputs avançados `date`, `file` e `color` — também ausentes
 
-## 🚧 Melhorias planejadas para o futuro
+## ⚠️ Aviso importante
 
-Este projeto está em andamento e deve continuar sendo atualizado até (e depois) do lançamento do
-jogo, previsto para **19 de novembro de 2026**. Itens já identificados para as próximas versões:
+Este é um site de fã, sem fins lucrativos, feito apenas para fins educacionais e informativos:
 
-- [ ] Completar o formulário da Página 9 (ou criar um segundo formulário) com `select`, `radio`/`checkbox`
-      e os inputs avançados `date`, `file` e `color`, que o projeto ainda não usa em lugar nenhum.
-- [ ] Padronizar a meta tag `author` em todas as páginas — hoje `Home`, `Pagina9`, `Pagina10` e
-      `Pagina11` usam um padrão, `Pagina1` a `Pagina5` e `Pagina8` usam outro, e `Pagina6`/`Pagina7`
-      não têm essa meta tag.
-- [ ] Adicionar imagens próprias na pasta `IMG/Mapa GTA6/` (hoje só há uma imagem especulativa,
-      usada tanto na Home quanto na Página 11).
-- [ ] Revisar pequenos erros de digitação em textos alternativos (`alt`) e legendas.
-- [ ] Possíveis novas páginas: edições e pré-venda do jogo, trilha sonora/artistas licenciados por
-      estação de rádio, e uma linha do tempo unificada cruzando todos os eventos do site.
-- [ ] Manter a Página 4 e a Página 8 atualizadas conforme o caso do vazador de 2022 e a investigação
-      do CyberLeek tiverem novidades (nenhum dos dois casos está oficialmente encerrado).
+- Sem qualquer vínculo oficial com a Rockstar Games ou a Take-Two Interactive.
+- O site **não hospeda nem reproduz** vídeos, imagens ou textos vazados ilegalmente — os vazamentos são **descritos com base em reportagens públicas**, sempre citadas nas próprias páginas (BBC, CBS News, TechRadar, SVG, Tom's Hardware, CoinDesk, entre outras).
+- Informações sobre pessoas envolvidas nos casos relatados (como o responsável identificado pelo vazamento de 2022) já eram amplamente divulgadas pela imprensa internacional antes de serem citadas aqui.
 
-## ⚠️ Aviso
+## 🚧 Estado atual e melhorias futuras
 
-Este é um site de fã, sem fins lucrativos, feito apenas para fins educacionais e informativos. Não
-reproduzimos vídeos, imagens ou textos vazados ilegalmente — todo o conteúdo é descrito com base em
-material oficial ou em reportagens públicas, sempre citadas nas próprias páginas.
+O projeto está em andamento e deve continuar sendo atualizado até (e depois) do lançamento do jogo, previsto — segundo o conteúdo do próprio site — para 19 de novembro de 2026. Pontos já identificados para as próximas versões:
+
+- [ ] Padronizar a meta tag `author` em todas as páginas: atualmente a Home e as Páginas 1 a 5 e 8 usam "Fã-site não oficial de GTA VI", enquanto as Páginas 6, 7, 9, 10 e 11 usam o nome do desenvolvedor.
+- [ ] Completar o formulário de opinião da Página 9 (ou criar um segundo formulário) com `select`, `radio`/`checkbox` e os inputs avançados `date`, `file` e `color`.
+- [ ] Adicionar imagens próprias/autorais em `IMG/Mapa GTA6/`, hoje com apenas uma imagem especulativa reaproveitada tanto na Home quanto na Página 11.
+- [ ] Manter a Página 8 atualizada conforme surgirem novidades na investigação do CyberLeek, que segue em aberto (diferente do caso de 2022, já com desfecho judicial em dezembro de 2023).
+- [ ] Possíveis novas páginas: edições e pré-venda do jogo, trilha sonora completa por estação de rádio, e uma linha do tempo unificada cruzando todos os eventos do site.
+- [ ] Preencher a seção "About" do repositório no GitHub (descrição e topics) e avaliar a adição de uma licença — o repositório está público, mas sem descrição, topics ou licença definidos no momento.
+
+## Créditos
+
+Projeto mantido por [Jhontropinha](https://github.com/Jhontropinha) no GitHub.
