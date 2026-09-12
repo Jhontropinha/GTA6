@@ -288,8 +288,9 @@
             </details>
         </section>
 
-        <section>
+        <aside>
             <h2>Fontes utilizadas</h2>
+            <p><small>Conteúdo complementar: os materiais usados para embasar as informações apresentadas nesta página.</small></p>
 
             <ul>
                 <li>
@@ -322,7 +323,7 @@
                     Consultar informações da Take-Two
                 </a>
             </p>
-        </section>
+        </aside>
 
         <section>
             <h2>Opinião do leitor</h2>
@@ -357,6 +358,18 @@
                         <option value="Sites de notícias">
                     </datalist>
 
+                    <br><br>
+
+                    <label for="data-compra">Quando você pretende comprar GTA VI?</label>
+                    <input type="date" id="data-compra" name="data_compra" min="2026-11-19" required>
+                    <br><br>
+
+                    <label for="print-opiniao">Anexar um print (comunicado, meme, notícia etc.) que embasa sua opinião:</label>
+                    <input type="file" id="print-opiniao" name="print_opiniao" accept="image/*">
+                    <br><br>
+
+                    <label for="cor-vice-city">Escolha uma cor que represente Vice City pra você:</label>
+                    <input type="color" id="cor-vice-city" name="cor_vice_city" value="#ff00aa">
                     <br><br>
 
                     <input type="submit" value="Enviar opinião">
