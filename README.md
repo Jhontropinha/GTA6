@@ -90,7 +90,6 @@ Este é um site de fã, sem fins lucrativos, feito apenas para fins educacionais
 O projeto está em andamento e deve continuar sendo atualizado até (e depois) do lançamento do jogo, previsto — segundo o conteúdo do próprio site — para 19 de novembro de 2026. Pontos já identificados para as próximas versões:
 
 - [ ] Padronizar a meta tag `author` em todas as páginas: atualmente a Home e as Páginas 1 a 5 e 8 usam "Fã-site não oficial de GTA VI", enquanto as Páginas 6, 7, 9, 10 e 11 usam o nome do desenvolvedor.
-- [ ] Completar o formulário de opinião da Página 9 (ou criar um segundo formulário) com `select`, `radio`/`checkbox` e os inputs avançados `date`, `file` e `color`.
 - [ ] Adicionar imagens próprias/autorais em `IMG/Mapa GTA6/`, hoje com apenas uma imagem especulativa reaproveitada tanto na Home quanto na Página 11.
 - [ ] Manter a Página 8 atualizada conforme surgirem novidades na investigação do CyberLeek, que segue em aberto (diferente do caso de 2022, já com desfecho judicial em dezembro de 2023).
 - [ ] Possíveis novas páginas: edições e pré-venda do jogo, trilha sonora completa por estação de rádio, e uma linha do tempo unificada cruzando todos os eventos do site.
